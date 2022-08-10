@@ -55,5 +55,18 @@ footer{
 @media (max-width:768px){
     body{
         grid-template-columns: 1fr;
+        /* width: 100%; */
+    }
+
+    main{
+        grid-row: 3;
+    }
+
+    aside{
+        grid-row: 4;
+    }
+
+    footer{
+        grid-row: 5;
     }
 }
