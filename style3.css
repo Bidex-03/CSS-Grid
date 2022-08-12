@@ -95,6 +95,7 @@ ul{
     padding: 10px;
     background: #444;
     color: #e7e7e7;
+    transition: all ease-out .3s;
     /* border-bottom: #444 5px solid; */
 }
 
