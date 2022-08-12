@@ -9,6 +9,11 @@
     font-weight: 600;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 #container{
     height: 100vh;
     margin: 0px 10px 0 10px;
@@ -57,7 +62,7 @@
 ul{
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(5, auto);
 }
 
 .logo{
@@ -66,21 +71,28 @@ ul{
 }
 
 .dropdown{
-    background: brown;
-    padding: 5px;
+    /* background: brown; */
+    /* padding: 5px; */
     grid-column: 2/4;
     justify-content: space-between;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    /* grid-auto-columns: minmax(100px, 1fr); */
+    grid-auto-columns: minmax(100px, 1fr);
 }
 
 .dropdown > ul li{
-    background: chocolate;
+    /* background: chocolate; */
 }
 
 .dropdown li{
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.dropdown ul li:hover{
+    /* background: #444; */
+    border-bottom: #444 5px solid;
 }
 
 .btn{
